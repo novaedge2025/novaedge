@@ -13,376 +13,400 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <!-- Responsive navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container px-5">
-            <a class="navbar-brand" href="#!">广告变现专家</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="导航切换"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link active" href="#!">首页</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#features-advanced">服务</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#pricing">方案</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">联系我们</a></li>
-                </ul>
-            </div>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-logo" href="#!">
+                <span class="logo-icon">◆</span>
+                <span class="logo-text">NOVAEDGE</span>
+            </a>
+
+            <ul class="navbar-menu">
+                <li><a href="#features-advanced">SOLUTIONS</a></li>
+                <li><a href="#contact">DEMO</a></li>
+            </ul>
         </div>
     </nav>
-    <!-- Header-->
-    <header class="bg-dark py-5">
+    <!-- Header -->
+    <header class="hero-section py-5">
         <div class="container px-5">
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-6">
                     <div class="text-center my-5">
-                        <h1 class="display-5 fw-bolder text-white mb-2">广告变现专家</h1>
-                        <p class="lead text-white-50 mb-4">专业的广告变现解决方案，助力您的业务增长</p>
-                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-                            <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features-advanced">了解服务</a>
-                            <a class="btn btn-outline-light btn-lg px-4" href="#contact">联系我们</a>
-                        </div>
+                        <h1 class="display-5 fw-bolder hero-title mb-2">NOVAEDGE</h1>
+                        <p class="hero-subtitle">
+                            The first automated Full Stack Solution to grow your revenue
+                        </p>
+                        <a href="#contact" class="btn-modern">Get started free</a>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+    <!-- Scroller -->
+    <div class="trusted-label"">Trusted by companies around the world</div>
+    <div class=" scroller">
+        <div class="scroller-track">
+            <img src="https://rev.iq/_app/immutable/assets/AdSense.rUiW19VN.svg" alt="Google AdSense" />
+            <img src="https://rev.iq/_app/immutable/assets/NoBid.h7Byu-Pk.png" alt="NoBid" />
+            <img src="https://rev.iq/_app/immutable/assets/Blockthrough.uMWkzQgn.webp" alt="Blockthrough" />
+            <img src="https://rev.iq/_app/immutable/assets/OpenX.JcmDl6Xq.svg" alt="OpenX" />
+            <img src="https://rev.iq/_app/immutable/assets/Kueez.qS1O7WzQ.svg" alt="Kueez" />
+            <img src="https://rev.iq/_app/immutable/assets/AdaptMX.sjGUSS11.png" alt="adaptMX" />
+            <img src="https://rev.iq/_app/immutable/assets/CPMStar.XSuMZvq2.png" alt="CPMStar" />
+            <img src="https://rev.iq/_app/immutable/assets/RiseSSP.Og98uKUt.svg" alt="RISE" />
+            <img src="https://rev.iq/_app/immutable/assets/Sonobi.bH94vDUA.png" alt="Sonobi" />
+            <img src="https://rev.iq/_app/immutable/assets/Vidazoo.PPvn0C8b.svg" alt="Vidazoo" />
+
+            <img src="https://rev.iq/_app/immutable/assets/AdSense.rUiW19VN.svg" alt="Google AdSense" />
+            <img src="https://rev.iq/_app/immutable/assets/NoBid.h7Byu-Pk.png" alt="NoBid" />
+            <img src="https://rev.iq/_app/immutable/assets/Blockthrough.uMWkzQgn.webp" alt="Blockthrough" />
+            <img src="https://rev.iq/_app/immutable/assets/OpenX.JcmDl6Xq.svg" alt="OpenX" />
+            <img src="https://rev.iq/_app/immutable/assets/AdaptMX.sjGUSS11.png" alt="Kueez" />
+            <img src="https://rev.iq/_app/immutable/assets/AdaptMX.sjGUSS11.png" alt="adaptMX" />
+            <img src="https://rev.iq/_app/immutable/assets/AdaptMX.sjGUSS11.png" alt="CPMStar" />
+            <img src="https://rev.iq/_app/immutable/assets/RiseSSP.Og98uKUt.svg" alt="RISE" />
+            <img src="https://rev.iq/_app/immutable/assets/Sonobi.bH94vDUA.png" alt="Sonobi" />
+            <img src="https://rev.iq/_app/immutable/assets/Vidazoo.PPvn0C8b.svg" alt="Vidazoo" />
+        </div>
+    </div>
     <!-- Advantages section-->
-    <section class="py-5 border-bottom" id="advantages">
+    <section class="py-5 bg-white" id="advantages">
         <div class="container px-5 my-5">
             <div class="text-center mb-5">
-                <h2 class="fw-bolder">我们的优势</h2>
-                <p class="lead mb-0">
-                    通过算法逻辑，把自有广告作为谷歌广告的有效补充，可提高收入
-                    <span class="fw-bold text-primary">15%~20%</span>
+                <h2 class="fw-bold mb-3">Empowering Growth</h2>
+                <p class="lead text-muted mb-0">
+                    NOVAEDGE operates uniquely as the only one-stop shop in the Advertising Space.
                 </p>
             </div>
-            <div class="row gx-5 justify-content-center">
+
+            <div class="row gx-5 text-center">
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card h-100 shadow-sm border-0 rounded-4 advantage-card">
-                        <div class="card-body text-center p-4 p-md-5">
-                            <h1 class="mb-3">🤝</h1>
-                            <h5 class="fw-bold mb-3">国际化运营经验</h5>
-                            <p class="text-muted mb-0">
-                                与美国团队运营聚合广告平台，具备丰富的国际化投放经验
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card h-100 shadow-sm border-0 rounded-4 advantage-card">
-                        <div class="card-body text-center p-4 p-md-5">
-                            <h1 class="mb-3">🔗</h1>
-                            <h5 class="fw-bold mb-3">多渠道广告对接</h5>
-                            <p class="text-muted mb-0">
-                                对接多家 GCPP 广告代理，拓展更多变现渠道
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card h-100 shadow-sm border-0 rounded-4 advantage-card">
-                        <div class="card-body text-center p-4 p-md-5">
-                            <h1 class="mb-3">💼</h1>
-                            <h5 class="fw-bold mb-3">自有广告主资源</h5>
-                            <p class="text-muted mb-0">
-                                直接接入自有广告主，确保投放灵活性与收益稳定性
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Plan section-->
-    <section class="bg-light py-5 border-bottom" id="pricing">
-        <div class="container-xl px-5 my-5">
-            <div class="text-center mb-5">
-                <h2 class="fw-bolder">变现方案</h2>
-                <p class="lead mb-0">多种变现模式，满足不同业务需求</p>
-            </div>
-            <div class="row gx-5 justify-content-center">
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="card h-100 hover-card">
-                        <div class="card-body text-center p-5">
-                            <h1>🌐</h1>
-                            <h5 class="fw-bold">常规模式</h5>
-                            <p class="text-muted">通过H5网站接入广告平台进行流量变现</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="card h-100 hover-card">
-                        <div class="card-body text-center p-5">
-                            <h1>📊</h1>
-                            <h5 class="fw-bold">聚合广告</h5>
-                            <p class="text-muted">在Adx等广告收入的基础上补充自有广告收入</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="card h-100 hover-card">
-                        <div class="card-body text-center p-5">
-                            <h1>🏆</h1>
-                            <h5 class="fw-bold">积分墙</h5>
-                            <p class="text-muted">为开发者在H5广告变现的同时提供积分墙功能</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="card h-100 hover-card">
-                        <div class="card-body text-center p-5">
-                            <h1>📺</h1>
-                            <h5 class="fw-bold">OTT端</h5>
-                            <p class="text-muted">有开机广告、H5、VAST等多种接入方式进行变现</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Features section-->
-    <section class="py-5 border-bottom" id="features">
-        <div class="container px-5 my-5">
-            <div class="text-center mb-5">
-                <h2 class="fw-bolder">变现通道</h2>
-                <p class="lead mb-0">与主流广告平台深度合作，确保稳定收益</p>
-            </div>
-            <div class="card shadow-sm border-0 rounded-4">
-                <div class="card-body p-4 p-md-5">
-                    <div class="feature-item d-flex align-items-start mb-4 pb-4 border-bottom">
-                        <div class="fs-3 me-3">🤝</div>
-                        <div>
-                            <h5 class="fw-bold mb-1">广告平台合作</h5>
-                            <p class="mb-0 text-muted">
-                                与主流广告平台都有合作，包括 AdSense、ADX、Taboola、Adskeeper、Outbrain 等，
-                                有多个备用账户随时规避风险
-                            </p>
-                        </div>
-                    </div>
-                    <div class="feature-item d-flex align-items-start mb-4 pb-4 border-bottom">
-                        <div class="fs-3 me-3">🌍</div>
-                        <div>
-                            <h5 class="fw-bold mb-1">海外代理</h5>
-                            <p class="mb-0 text-muted">对接了十多家海外代理，拓展更多优质流量渠道</p>
-                        </div>
-                    </div>
-                    <div class="feature-item d-flex align-items-start">
-                        <div class="fs-3 me-3">💼</div>
-                        <div>
-                            <h5 class="fw-bold mb-1">自有账户建设</h5>
-                            <p class="mb-0 text-muted">目前正在筹备自有 GCPP 账户，提升账户稳定性与独立性</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Services section-->
-    <section class="bg-light py-5 border-bottom" id="features-advanced">
-        <div class="container px-5 my-5">
-            <div class="text-center mb-5">
-                <h2 class="fw-bolder">我们的服务</h2>
-                <p class="lead mb-0">
-                    专业的广告变现服务，助力您的业务增长
-                </p>
-            </div>
-            <div class="row gx-5 justify-content-center">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card h-100 shadow-sm border-0 rounded-4 feature-card">
-                        <div class="card-body p-4 p-md-5 text-center">
-                            <h1 class="mb-3">🎯</h1>
-                            <h5 class="fw-bold text-primary mb-3">广告优化</h5>
-                            <p class="text-muted">
-                                通过智能算法优化广告展示，提高点击率和转化率，确保每一个广告位都能发挥最大价值。
-                            </p>
-                            <ul class="list-unstyled text-start mt-4">
-                                <li>✔ 智能广告位配置</li>
-                                <li>✔ 实时性能监控</li>
-                                <li>✔ A/B 测试优化</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card h-100 shadow-sm border-0 rounded-4 feature-card">
-                        <div class="card-body p-4 p-md-5 text-center">
-                            <h1 class="mb-3">💰</h1>
-                            <h5 class="fw-bold text-primary mb-3">收益提升</h5>
-                            <p class="text-muted">
-                                专业的广告变现策略，帮助您实现收益最大化，通过多种渠道提升广告收入。
-                            </p>
-                            <ul class="list-unstyled text-start mt-4">
-                                <li>✔ 多渠道广告投放</li>
-                                <li>✔ 收益最大化策略</li>
-                                <li>✔ 广告位价值评估</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card h-100 shadow-sm border-0 rounded-4 feature-card">
-                        <div class="card-body p-4 p-md-5 text-center">
-                            <h1 class="mb-3">📊</h1>
-                            <h5 class="fw-bold text-primary mb-3">数据分析</h5>
-                            <p class="text-muted">
-                                深入的数据分析报告，助您了解广告效果，为决策提供数据支持。
-                            </p>
-                            <ul class="list-unstyled text-start mt-4">
-                                <li>✔ 实时数据监控</li>
-                                <li>✔ 详细分析报告</li>
-                                <li>✔ 趋势预测分析</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Cases section-->
-    <section class="py-5 border-bottom" id="cases">
-        <div class="container px-5 my-5">
-            <div class="text-center mb-5">
-                <h2 class="fw-bolder">产品案例</h2>
-                <p class="lead mb-0">
-                    共开发了游戏和资讯类站点近三十款，类型有游戏、金融资讯、健康资讯、小说、旅游资讯等
-                </p>
-            </div>
-            <div class="row gx-5 justify-content-center">
-                <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                    <div class="case-item text-center">
-                        <div class="phone-frame mb-3">
-                            <img src="https://www.yoletech.com/game1.png" alt="游戏案例" class="img-fluid rounded-3" />
-                        </div>
-                        <h6 class="fw-bold">游戏</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                    <div class="case-item text-center">
-                        <div class="phone-frame mb-3">
-                            <img src="https://www.yoletech.com/game2.png" alt="金融资讯案例" class="img-fluid rounded-3" />
-                        </div>
-                        <h6 class="fw-bold">金融资讯</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                    <div class="case-item text-center">
-                        <div class="phone-frame mb-3">
-                            <img src="https://www.yoletech.com/game3.png" alt="健康资讯案例" class="img-fluid rounded-3" />
-                        </div>
-                        <h6 class="fw-bold">健康资讯</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                    <div class="case-item text-center">
-                        <div class="phone-frame mb-3">
-                            <img src="https://www.yoletech.com/game4.png" alt="小说案例" class="img-fluid rounded-3" />
-                        </div>
-                        <h6 class="fw-bold">小说</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                    <div class="case-item text-center">
-                        <div class="phone-frame mb-3">
-                            <img src="https://www.yoletech.com/game5.png" alt="旅游资讯案例" class="img-fluid rounded-3" />
-                        </div>
-                        <h6 class="fw-bold">旅游资讯</h6>
+                    <div class="stat-card p-4 p-md-5">
+                        <h2 class="stat-value">45%</h2>
+                        <p class="stat-label">Viewability Growth</p>
+                        <p class="stat-desc">
+                            Improved ad viewability across campaigns with stable long-term uplift.
+                        </p>
                     </div>
                 </div>
 
-            </div>
-        </div>
-    </section>
-    <!-- Testimonials section-->
-    <section class="bg-light py-5 border-bottom">
-        <div class="container px-5 my-5 px-5">
-            <div class="text-center mb-5">
-                <h2 class="fw-bolder">客户反馈</h2>
-                <p class="lead mb-0">看看合作伙伴怎么说</p>
-            </div>
-            <div class="row gx-5 justify-content-center">
-                <div class="col-lg-6">
-                    <div class="card mb-4">
-                        <div class="card-body p-4">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i>
-                                </div>
-                                <div class="ms-4">
-                                    <p class="mb-1">通过他们的智能投放，我们的广告转化率提升了40%，预算使用效率显著提高。</p>
-                                    <div class="small text-muted">- 电商客户，上海</div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="stat-card p-4 p-md-5">
+                        <h2 class="stat-value">2.93x</h2>
+                        <p class="stat-label">CTR Growth</p>
+                        <p class="stat-desc">
+                            Boosted click-through rates by leveraging contextual targeting and NLP.
+                        </p>
                     </div>
-                    <div class="card">
-                        <div class="card-body p-4">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i>
-                                </div>
-                                <div class="ms-4">
-                                    <p class="mb-1">他们的团队帮我们开拓了全新的流量渠道，广告收入持续增长。</p>
-                                    <div class="small text-muted">- 游戏客户，北京</div>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="stat-card p-4 p-md-5">
+                        <h2 class="stat-value">1.98x</h2>
+                        <p class="stat-label">Net Revenue</p>
+                        <p class="stat-desc">
+                            Increased net revenue by optimizing impressions and monetization.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section id="growth-banner" class="growth-section">
+        <div class="growth-steps">
+            <div class="step step-1"></div>
+            <div class="step step-2"></div>
+            <div class="step step-3"></div>
+        </div>
+        <div class="growth-text">
+            <span class="icon">📈</span>
+            Guaranteed monetization growth in just 1 month
+        </div>
+    </section>
+
+
+    <!-- Solutions Section-->
+    <section id="solutions" class="py-5 bg-white">
+        <div class="container px-5 my-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold mb-3">Solutions</h2>
+                <p class="lead text-muted mb-0">Advanced ad operations technology solutions for publishers.</p>
+            </div>
+
+            <div class="accordion">
+
+                <!-- Server Tech -->
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <div class="accordion-icon" style="background:#ff5c35;">
+                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M30.7666 0L49.2334 0C59.9316 0 63.811 1.11391 67.7221 3.20559C71.6333 5.29728 74.7027 8.36674 76.7944 12.2779C78.8861 16.189 80 20.0684 80 30.7666V49.2334C80 59.9316 78.8861 63.811 76.7944 67.7221C74.7027 71.6333 71.6333 74.7027 67.7221 76.7944C63.811 78.8861 59.9316 80 49.2334 80H30.7666C20.0684 80 16.189 78.8861 12.2779 76.7944C8.36674 74.7027 5.29728 71.6333 3.20559 67.7221C1.11391 63.811 0 59.9316 0 49.2334L0 30.7666C0 20.0684 1.11391 16.189 3.20559 12.2779C5.29728 8.36674 8.36674 5.29728 12.2779 3.20559C16.189 1.11391 20.0684 0 30.7666 0Z"
+                                    fill="#FE6645"></path>
+                                <g clip-path="url(#clip0_13_843)">
+                                    <path d="M31.2719 43.9386V45.5219" stroke="white" stroke-width="2.375"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M36.0219 43.9386V45.5219" stroke="white" stroke-width="2.375"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M41.5833 32.103H49.5198" stroke="white" stroke-width="2.375"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M31.2917 31.3114V32.8947" stroke="white" stroke-width="2.375"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M36.0417 31.3114V32.8947" stroke="white" stroke-width="2.375"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path
+                                        d="M51.875 25.75H28.125C26.8133 25.75 25.75 26.8133 25.75 28.125V36.0417C25.75 37.3533 26.8133 38.4167 28.125 38.4167H51.875C53.1867 38.4167 54.25 37.3533 54.25 36.0417V28.125C54.25 26.8133 53.1867 25.75 51.875 25.75Z"
+                                        stroke="white" stroke-width="2.375" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path
+                                        d="M36.8333 51.0833H28.125C27.4951 51.0833 26.891 50.8331 26.4456 50.3877C26.0002 49.9423 25.75 49.3382 25.75 48.7083V40.7917C25.75 40.1618 26.0002 39.5577 26.4456 39.1123C26.891 38.6669 27.4951 38.4167 28.125 38.4167"
+                                        stroke="white" stroke-width="2.375" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M46.7292 48.7083L48.3125 50.2917L50.6875 47.9167" stroke="white"
+                                        stroke-width="2.375" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path
+                                        d="M42.375 50.2007V46.6118C42.3749 46.1773 42.5089 45.7534 42.7586 45.3979C43.0083 45.0423 43.3617 44.7725 43.7704 44.6252L46.9899 43.4662C48.0993 43.0668 49.3132 43.0668 50.4226 43.4662L53.6462 44.6273C54.0546 44.7745 54.4077 45.044 54.6575 45.3991C54.9072 45.7542 55.0413 46.1777 55.0417 46.6118V50.2007C55.0417 52.8881 51.2818 54.8768 49.5528 55.6515C49.2874 55.7714 48.9995 55.8333 48.7083 55.8333C48.4171 55.8333 48.1293 55.7714 47.8639 55.6515C46.1349 54.8768 42.375 52.8839 42.375 50.2007Z"
+                                        stroke="white" stroke-width="2.375" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_13_843">
+                                        <rect width="38" height="38" fill="white" transform="translate(21 21)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <span class="accordion-title">Server Tech</span>
+                        <span class="accordion-toggle">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <h5>Cutting-edge server tech</h5>
+                        <p>We’ve re-written the core components of our bid and cache server code in Rust, shaving off
+                            precious ms of response time that give us an edge over the competition.</p>
+                        <h5>Optimized server distribution</h5>
+                        <p>With servers based in Seoul, California, Frankfurt, and Sydney, we’re well-positioned to
+                            bring ads to users in every corner of the world.</p>
+                    </div>
+                </div>
+
+                <!-- 2. Client Tech -->
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <div class="accordion-icon" style="background:#2d7ff9;">
+                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M30.7666 0L49.2334 0C59.9316 0 63.811 1.11391 67.7221 3.20559C71.6333 5.29728 74.7027 8.36674 76.7944 12.2779C78.8861 16.189 80 20.0684 80 30.7666V49.2334C80 59.9316 78.8861 63.811 76.7944 67.7221C74.7027 71.6333 71.6333 74.7027 67.7221 76.7944C63.811 78.8861 59.9316 80 49.2334 80H30.7666C20.0684 80 16.189 78.8861 12.2779 76.7944C8.36674 74.7027 5.29728 71.6333 3.20559 67.7221C1.11391 63.811 0 59.9316 0 49.2334L0 30.7666C0 20.0684 1.11391 16.189 3.20559 12.2779C5.29728 8.36674 8.36674 5.29728 12.2779 3.20559C16.189 1.11391 20.0684 0 30.7666 0Z"
+                                    fill="#2D5BFF"></path>
+                                <g clip-path="url(#clip0_13_829)">
+                                    <path
+                                        d="M43.9186 28.1647C46.0828 30.3289 46.0828 33.8377 43.9186 36.0018C41.7544 38.166 38.2457 38.166 36.0815 36.0018C33.9173 33.8377 33.9173 30.3289 36.0815 28.1647C38.2457 26.0005 41.7544 26.0005 43.9186 28.1647Z"
+                                        stroke="white" stroke-width="2.375" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path
+                                        d="M27.3334 50.2917V51.875C27.3334 52.749 28.0427 53.4583 28.9167 53.4583H51.0834C51.9574 53.4583 52.6667 52.749 52.6667 51.875V50.2917C52.6667 45.5005 46.4094 42.3877 40 42.3877C33.5907 42.3877 27.3334 45.5005 27.3334 50.2917Z"
+                                        stroke="white" stroke-width="2.375" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_13_829">
+                                        <rect width="38" height="38" fill="white" transform="translate(21 21)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <span class="accordion-title">Client Tech</span>
+                        <span class="accordion-toggle">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <h5>Volume Optimized + CPM Optimized = Perfectly balanced</h5>
+                        <p>We leverage our in-house machine learning services to dynamically adjust refresh rates, CPM
+                            weights, price floors, and more! Optimized individually for every placement, on every page,
+                            in every country. This allows us to automatically discover more inventory opportunities than
+                            any other service in the industry.</p>
+                        <h5>Contextual Creative Sizing</h5>
+                        <p>We run bids for each country against different ad sizes. Regional sizes such as 980x120 for
+                            EUN and 240x400 for Russia allow us to cater to international demand for all publishers.
+                            This diversifies our ad creatives and allows us to capture previously unavailable
+                            international demand.</p>
+                    </div>
+                </div>
+
+                <!-- 3. Publisher Tech -->
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <div class="accordion-icon" style="background:#b7f731;">
+                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M30.7666 0L49.2334 0C59.9316 0 63.811 1.11391 67.7221 3.20559C71.6333 5.29728 74.7027 8.36674 76.7944 12.2779C78.8861 16.189 80 20.0684 80 30.7666V49.2334C80 59.9316 78.8861 63.811 76.7944 67.7221C74.7027 71.6333 71.6333 74.7027 67.7221 76.7944C63.811 78.8861 59.9316 80 49.2334 80H30.7666C20.0684 80 16.189 78.8861 12.2779 76.7944C8.36674 74.7027 5.29728 71.6333 3.20559 67.7221C1.11391 63.811 0 59.9316 0 49.2334L0 30.7666C0 20.0684 1.11391 16.189 3.20559 12.2779C5.29728 8.36674 8.36674 5.29728 12.2779 3.20559C16.189 1.11391 20.0684 0 30.7666 0Z"
+                                    fill="#AFFF2C"></path>
+                                <g clip-path="url(#clip0_13_863)">
+                                    <path
+                                        d="M54.6533 29.9936L48.3617 34.3986C47.8 34.7902 47.1333 35.0002 46.45 35.0002H33.55C32.8667 35.0002 32.2 34.7902 31.64 34.3969L25.35 29.9952"
+                                        stroke="#323232" stroke-width="2.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path
+                                        d="M54.6533 50.0067L48.3617 45.6017C47.8 45.21 47.1333 45 46.45 45H33.55C32.8667 45 32.1983 45.21 31.6383 45.6033L25.3467 50.0067"
+                                        stroke="#323232" stroke-width="2.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M32.5 34.8332V55.4499" stroke="#323232" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M47.5 34.8332V55.4499" stroke="#323232" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path
+                                        d="M26.4217 51.2581L32.0333 55.1864C32.5933 55.5781 33.2617 55.7898 33.945 55.7898H46.0533C46.7367 55.7898 47.405 55.5797 47.965 55.1864L53.5767 51.2581C54.47 50.6347 55 49.6147 55 48.5281V31.4714C55 30.3831 54.47 29.3647 53.5783 28.7414L47.9667 24.8131C47.4067 24.4214 46.7383 24.2097 46.055 24.2097H33.945C33.2617 24.2097 32.5933 24.4197 32.0333 24.8131L26.4217 28.7414C25.53 29.3647 25 30.3847 25 31.4714V48.5264C25 49.6147 25.53 50.6347 26.4217 51.2581Z"
+                                        stroke="#323232" stroke-width="2.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_13_863">
+                                        <rect width="40" height="40" fill="white" transform="translate(20 20)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <span class="accordion-title">Publisher Tech</span>
+                        <span class="accordion-toggle">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <h5>Zero-step integration: Instant onboarding</h5>
+                        <p>Publishers will never need any code to integrate new ads, even if they've never run ads on
+                            their site before! Our codeless integration effortlessly ensures the most optimal revenue
+                            setup for any and all publishers interested in boosting their revenue.</p>
+                        <h5>Zero-deploy: Instant updates</h5>
+                        <p>Publishers who wish to add new demand or customize their ad experience can do so from our
+                            real time dashboard, allowing them to make changes, demo them on a test page, and go live
+                            instantly with our zero-deploy technology. No code required.</p>
+                    </div>
+                </div>
+
+                <!-- 4. Revenuw Intelligence-->
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <div class="accordion-icon" style="background:#000;">
+                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M30.7666 0L49.2334 0C59.9316 0 63.811 1.11391 67.7221 3.20559C71.6333 5.29728 74.7027 8.36674 76.7944 12.2779C78.8861 16.189 80 20.0684 80 30.7666V49.2334C80 59.9316 78.8861 63.811 76.7944 67.7221C74.7027 71.6333 71.6333 74.7027 67.7221 76.7944C63.811 78.8861 59.9316 80 49.2334 80H30.7666C20.0684 80 16.189 78.8861 12.2779 76.7944C8.36674 74.7027 5.29728 71.6333 3.20559 67.7221C1.11391 63.811 0 59.9316 0 49.2334L0 30.7666C0 20.0684 1.11391 16.189 3.20559 12.2779C5.29728 8.36674 8.36674 5.29728 12.2779 3.20559C16.189 1.11391 20.0684 0 30.7666 0Z"
+                                    fill="black"></path>
+                                <path
+                                    d="M40 40V23H32.4444C27.2284 23 23 26.8056 23 31.5C23 36.1944 27.2284 40 32.4444 40H40ZM40 40H47.5556C52.7716 40 57 43.8056 57 48.5C57 53.1944 52.7716 57 47.5556 57H40L40 40Z"
+                                    stroke="white" stroke-width="2.38"></path>
+                            </svg>
+                        </div>
+                        <span class="accordion-title">Revenue Intelligence</span>
+                        <span class="accordion-toggle">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <h5>Accelerating Growth through Automation</h5>
+                        <p>Our experience is derived from operating a full stack of revenue solutions. We know the all
+                            the
+                            pain points of optimizing header bidding to managing worldwide inventory. Instead of
+                            reacting to
+                            data and optimizing on the fly, we use predictive modeling and industry historicals to put
+                            our
+                            best solution forward and give you the best performance from Day 1. That's the NOVAEDGE
+                            Gauarantee
+                        </p>
+                        <h5>Solutions at Scale</h5>
+                        <p>The NOVAEDGE Data Processing Engine is trusted by the world's leading publishers to accelerate
+                            the
+                            development of their business. The scale of our operations, experts and quality is unmatched
+                            in
+                            the industry.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <!--Services section-->
+    <section id="features" class="features-section">
+        <div class="container">
+            <!-- 左边标题 -->
+            <div class="features-header">
+                <h2>We at <span class="highlight">NOVAEDGE</span> double down where we can make the biggest impact</h2>
+            </div>
+
+            <!-- 右边 features -->
+            <div class="features-grid">
+                <div class="feature-item">
+                    <h4>Dynamic Content Tagging</h4>
+                    <p><strong>Utilizing large language models (LLMs)</strong>, NOVAEDGE is able to analyze the contents
+                        of a publisher's page and provide meta tags as First Party Data (FPD) to advertisers, improving
+                        ad relevance and overall inventory quality.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h4>Ad Environment Context</h4>
+                    <p><strong>While first party signals</strong> are traditionally sent along with targeting values,
+                        NOVAEDGE’s also use FPD to dynamically select the best performing refresh rates and ad sizes
+                        based on historical performance in real-time.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h4>No Publisher Code Required</h4>
+                    <p><strong>NOVAEDGE’s Zero Code Paradigm:</strong> Publishers don’t write any code throughout the
+                        partnership. All configuration occurs on the user-friendly dashboard with a completely modular
+                        plugin/service system.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h4>Painlessly Accessible Dashboard</h4>
+                    <p><strong>Seeing is believing:</strong> NOVAEDGE’s aims to bring convenience, simplicity, and
+                        usability first to the publisher. Our algorithms always bring values derived from real-time
+                        revenue displayed onto the dashboard.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact section-->
     <section class="py-5" id="contact">
         <div class="container px-5 my-5 px-5">
             <div class="text-center mb-5">
-                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i>
-                </div>
-                <h2 class="fw-bolder">联系我们</h2>
-                <p class="lead mb-0">让我们帮您开启高效广告变现之路</p>
+                <h2 class="fw-bolder">Get a demo</h2>
+                <p class="lead mb-0">Get in touch to learn more about our product suite and how NOVAEDGE can help you
+                    maximize growth</p>
             </div>
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-6">
-                    <!-- * * * * * * * * * * * * * * *-->
-                    <!-- * * SB Forms Contact Form * *-->
-                    <!-- * * * * * * * * * * * * * * *-->
-                    <!-- This form is pre-integrated with SB Forms.-->
-                    <!-- To make this form functional, sign up at-->
-                    <!-- https://startbootstrap.com/solution/contact-forms-->
-                    <!-- to get an API token!-->
                     <form id="contactForm">
-                        <!-- Name input -->
                         <div class="form-floating mb-3">
-                            <input class="form-control" id="name" name="name" type="text" placeholder="请输入姓名"
-                                required />
-                            <label for="name">姓名</label>
+                            <input class="form-control" id="name" name="name" type="text" required />
+                            <label for="name">Name</label>
                         </div>
 
-                        <!-- Email input -->
                         <div class="form-floating mb-3">
-                            <input class="form-control" id="email" name="email" type="email"
-                                placeholder="name@example.com" required />
-                            <label for="email">邮箱</label>
+                            <input class="form-control" id="email" name="email" type="email" required />
+                            <label for="email">Email</label>
                         </div>
 
-                        <!-- Phone input -->
                         <div class="form-floating mb-3">
-                            <input class="form-control" id="phone" name="phone" type="tel" placeholder="(123) 456-7890"
-                                required />
-                            <label for="phone">电话</label>
+                            <input class="form-control" id="phone" name="phone" type="tel" required />
+                            <label for="phone">Tel</label>
                         </div>
 
-                        <!-- Message input -->
                         <div class="form-floating mb-3">
-                            <textarea class="form-control" id="message" name="message" placeholder="请输入信息..."
-                                style="height: 10rem" required></textarea>
-                            <label for="message">信息</label>
+                            <textarea class="form-control" id="message" name="message" style="height: 10rem"
+                                required></textarea>
+                            <label for="message">Message</label>
                         </div>
 
-                        <!-- Submit button -->
                         <div class="d-grid">
-                            <button class="btn btn-primary btn-lg" type="submit">发送</button>
+                            <button class="btn btn-primary btn-lg" type="submit">Submit</button>
                         </div>
                     </form>
 
@@ -410,11 +434,23 @@
         </div>
     </section>
     <!-- Footer-->
-    <footer class="py-5 bg-dark">
+    <footer class="py-5">
         <div class="container px-5">
-            <p class="m-0 text-center text-white">Copyright &copy; 广告变现专家 2025</p>
+            <p class="m-0 text-center text-white">© 2021-2024 NOVAEDGE</p>
         </div>
     </footer>
+    <script>
+        document.querySelectorAll(".accordion-header").forEach(header => {
+            header.addEventListener("click", () => {
+                const item = header.parentElement;
+                const openItem = document.querySelector(".accordion-item.active");
+                if (openItem && openItem !== item) {
+                    openItem.classList.remove("active");
+                }
+                item.classList.toggle("active");
+            });
+        });
+    </script>
 </body>
 
 </html>
