@@ -11204,7 +11204,7 @@ fieldset:disabled .btn {
   transition: color 0.3s ease;
 }
 .case-item:hover h6 {
-  color: #0d6efd; 
+  color: #0d6efd;
 }
 
 .feature-card {
@@ -11226,10 +11226,6 @@ fieldset:disabled .btn {
   transform: translateY(-8px);
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
 }
-
-
-
-
 
 /* Navbar */
 .navbar {
@@ -11287,12 +11283,12 @@ fieldset:disabled .btn {
 .hero-section {
   background-color: #000;
   color: white;
-  min-height: 100vh;          
-  display: flex;              
-  align-items: center;        
-  justify-content: center;    
-  text-align: center;         
-  padding: 0 20px;            
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
 }
 
 .hero-title {
@@ -11326,10 +11322,10 @@ fieldset:disabled .btn {
 
 .hero-subtitle {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 300; 
-  font-size: 1.25rem; 
-  color: rgba(255, 255, 255, 0.75); 
-  letter-spacing: 0.5px; 
+  font-weight: 300;
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.75);
+  letter-spacing: 0.5px;
 }
 
 .btn-modern {
@@ -11607,7 +11603,6 @@ fieldset:disabled .btn {
   background-color: #111;
   border-color: #fd6550;
   box-shadow: 0 0 8px rgba(45, 127, 249, 0.5);
-  color: white;
 }
 #contact .form-control::placeholder {
   color: rgba(255, 255, 255, 0.5);
@@ -11637,6 +11632,7 @@ fieldset:disabled .btn {
 
 footer {
   background-color: #000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Growth Section */
