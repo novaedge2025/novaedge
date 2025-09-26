@@ -1,0 +1,9 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" aria-label="Publisher Tech icon" xmlns="http://www.w3.org/2000/svg">
+  <title>Publisher Tech</title>
+  <rect width="80" height="80" rx="20" fill="#27AE60"/>
+  <rect x="24" y="22" width="32" height="24" rx="4" stroke="#fff" stroke-width="2"/>
+  <rect x="28" y="26" width="10" height="8" rx="2" stroke="#fff" stroke-width="2"/>
+  <rect x="40" y="26" width="12" height="8" rx="2" stroke="#fff" stroke-width="2"/>
+  <rect x="28" y="36" width="16" height="6" rx="2" stroke="#fff" stroke-width="2"/>
+  <path d="M46 39l3 3 5-6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
