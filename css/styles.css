@@ -11493,11 +11493,24 @@ fieldset:disabled .btn {
 .solution-block.green  { background: #F0DDD6; }
 .solution-block.black  { background: #F0EEEA; }
 
+#solutions h4 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+#solutions p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.5;
+}
+
 
 /* Features Section */
 /* Features Section Base */
 #features {
-  background: radial-gradient(circle at center, #f7f7f7, #fff);
   font-family: "Space Grotesk", sans-serif;
   padding: 80px 20px;
 }
@@ -11588,11 +11601,13 @@ fieldset:disabled .btn {
 
 /* Text */
 .feature-item h4 {
-  font-size: 1.6rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.4rem;
   font-weight: 600;
   margin-bottom: 12px;
 }
 .feature-item p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1rem;
   color: #444;
   line-height: 1.5;
