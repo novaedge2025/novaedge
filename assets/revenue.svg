@@ -1,8 +1,8 @@
 <svg width="80" height="80" viewBox="0 0 80 80" fill="none" aria-label="Revenue Intelligence icon" xmlns="http://www.w3.org/2000/svg">
   <title>Revenue Intelligence</title>
-  <rect width="80" height="80" rx="20" fill="#000"/>
-  <path d="M20 56h40" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
-  <path d="M24 32v24" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
-  <path d="M24 52l10-8 7 6 12-14" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M53 28h8v8" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect width="80" height="80" rx="20" fill="#F0EEEA"/>
+  <path d="M20 56h40" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+  <path d="M24 32v24" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+  <path d="M24 52l10-8 7 6 12-14" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M53 28h8v8" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
